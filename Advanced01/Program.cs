@@ -27,6 +27,10 @@ namespace Advanced01
             //It restricts the generic type to reference types.
             //example class animal<T> where T:class
             #endregion
+            #region Q9
+            //It requires the generic type to have a public parameterless constructor.
+            //example class animal<T> where T:new()
+            #endregion
         }
     }
 }
