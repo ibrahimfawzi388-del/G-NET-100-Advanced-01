@@ -5,7 +5,10 @@ namespace Advanced01
     {
         static void Main(string[] args)
         {
-            
+            #region Q1
+            //a generic class uses a type parameter so the same
+            //class can work with different types.
+            #endregion
         }
     }
 }
