@@ -23,6 +23,10 @@ namespace Advanced01
             //It restricts the generic type to value types that are non-nullable.
             //example class animal<T> where T:struct
             #endregion
+            #region Q8
+            //It restricts the generic type to reference types.
+            //example class animal<T> where T:class
+            #endregion
         }
     }
 }
