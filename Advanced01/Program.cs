@@ -9,6 +9,9 @@ namespace Advanced01
             //a generic class uses a type parameter so the same
             //class can work with different types.
             #endregion
+            #region Q2
+            //Multiple type parameters let a generic class work with more than one type
+            #endregion
         }
     }
 }
