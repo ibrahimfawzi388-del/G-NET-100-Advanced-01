@@ -19,6 +19,10 @@ namespace Advanced01
             #region Q6
             //generic interface defines a contract that works with a type supplied by the class or method implementing it.
             #endregion
+            #region Q7
+            //It restricts the generic type to value types that are non-nullable.
+            //example class animal<T> where T:struct
+            #endregion
         }
     }
 }
