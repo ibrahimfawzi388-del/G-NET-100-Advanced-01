@@ -42,6 +42,9 @@ namespace Advanced01
             #region Q12
             //class Repository<T> where T : Animal, IDisposable, new()
             #endregion
+            #region Q13
+           // The default keyword returns the default value of a type. For value types, it returns a zero-like value, and for reference types, it returns null.
+            #endregion
         }
     }
 }
