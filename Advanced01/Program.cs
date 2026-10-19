@@ -39,6 +39,9 @@ namespace Advanced01
             //It restricts the generic type to a specified base class or its derived classes.
             //example class class1<T> where T:animal
             #endregion
+            #region Q12
+            //class Repository<T> where T : Animal, IDisposable, new()
+            #endregion
         }
     }
 }
