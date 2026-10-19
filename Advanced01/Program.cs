@@ -16,6 +16,9 @@ namespace Advanced01
             //A generic method is a method with its own type parameter,
             //so it can work with different types.
             #endregion
+            #region Q6
+            //generic interface defines a contract that works with a type supplied by the class or method implementing it.
+            #endregion
         }
     }
 }
