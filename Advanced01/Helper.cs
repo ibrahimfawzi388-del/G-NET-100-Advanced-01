@@ -12,5 +12,10 @@ namespace Advanced01
             val1= val2;
             val2 = temp;
         }
+
+        public static T FindMax<T>(T first,T second)where T :IComparable<T>
+        {
+            return first.CompareTo(second) >= 0 ? first : second;
+        }
     }
 }
