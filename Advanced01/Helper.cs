@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Advanced01
+{
+    internal static class Helper
+    {
+        public static void Swap<T>(ref T val1,ref T val2)
+        {
+            T temp = val1;
+            val1= val2;
+            val2 = temp;
+        }
+    }
+}
