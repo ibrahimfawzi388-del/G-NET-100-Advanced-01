@@ -31,6 +31,10 @@ namespace Advanced01
             //It requires the generic type to have a public parameterless constructor.
             //example class animal<T> where T:new()
             #endregion
+            #region Q10
+            //It restricts the generic type to types that implement a specific interface.
+            //example class animal<T> where T:IRepository
+            #endregion
         }
     }
 }
