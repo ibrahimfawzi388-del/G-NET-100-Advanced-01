@@ -35,6 +35,10 @@ namespace Advanced01
             //It restricts the generic type to types that implement a specific interface.
             //example class animal<T> where T:IRepository
             #endregion
+            #region Q11
+            //It restricts the generic type to a specified base class or its derived classes.
+            //example class class1<T> where T:animal
+            #endregion
         }
     }
 }
